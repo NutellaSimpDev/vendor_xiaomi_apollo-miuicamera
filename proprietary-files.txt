@@ -1,0 +1,119 @@
+# All unpinned blobs below are extracted from miui_HAYDNGlobal_V14.0.3.0.TKKMIXM
+
+# Miui Gallery
+system/priv-app/MiuiGallery/MiuiGallery.apk
+
+# Miui Gallery Editor
+system/priv-app/MiuiGalleryEditor/MiuiGalleryEditor.apk
+
+# Leica App Mod
+system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=GrapheneCamera,Camera,Camera2,Aperture
+
+# MiVideo App
+product/app/MIUIVideoPlayer/MIUIVideoPlayer.apk:system/priv-app/MiuiVideoPlayer/MiuiVideoPlayer.apk
+
+# Leica App Libs
+system/priv-app/MiuiCamera/lib/arm64-v8a/libAIPOSE.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libCameraEffectJNI.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libDocumentProcess.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libOCR.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libYuvWatermark.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libc++.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libc++_shared.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libcamera_arcsoft_handgesture.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libcamera_handgesture_mpbase.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libcamera_mi_handgesture.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libcamera_requestutil_jni.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libcamera_video_mein_algo_jni.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libcamera_yuv_jni.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libdmabufheap.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libhandengine.arcsoft.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libijkffmpeg.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libijkplayer.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libijksdl.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libion.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libmialgo_saliency.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libmialgo_saliency_jni.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libmiocr_wrapper.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libmiuiblursdk.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libmulti-wakeup-engine.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libtailor.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libvideo_extra_color_converter.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libvideo_extra_interpolator.so
+system/priv-app/MiuiCamera/lib/arm64-v8a/libyuv.so
+
+# System Public libraries
+system/etc/public.libraries-xiaomi.txt
+
+# Vendor Public libraries
+vendor/etc/public.libraries.txt
+
+# Device Specific prebuilts
+system/lib/libarcsoft_single_chart_calibration.so
+system/lib/libcamera_algoup_jni.xiaomi.so
+system/lib/libcamera_mianode_jni.xiaomi.so
+system/lib64/libarcsoft_single_chart_calibration.so
+system/lib64/libcamera_algoup_jni.xiaomi.so
+system/lib64/libcamera_mianode_jni.xiaomi.so
+vendor/lib/libswregistrationalgo.so
+vendor/lib64/lib_sr_models.so
+vendor/lib64/libarcsat.so
+vendor/lib64/libbeauty_face_interface.so
+vendor/lib64/libflaw.so
+vendor/lib64/libsdk_sr.so
+
+# Device Specific Gallery Libs (Apollo)
+system/lib64/libgallery_arcsoft_dualcam_refocus.so
+system/lib64/libgallery_arcsoft_portrait_lighting.so
+system/lib64/libgallery_arcsoft_portrait_lighting_c.so
+system/lib64/libgallery_block_sdk.so
+system/lib64/libgallery_mpbase.so
+
+# Device Specific MiAi
+vendor/lib64/libmiai_deblur.so
+vendor/lib64/libmiai_portraitsupernight.so
+
+# Device Specific Camera addons
+vendor/lib/libcom.xiaomi.metadatautils.so
+vendor/lib/libcom.xiaomi.pluginutils.so
+vendor/lib64/com.qcom.plugin.gpu.so
+vendor/lib64/com.qcom.plugin.jpegencode.so
+vendor/lib64/com.xiaomi.plugin.bodyslim.so
+vendor/lib64/com.xiaomi.plugin.capbokeh.so
+vendor/lib64/com.xiaomi.plugin.dc.so
+vendor/lib64/com.xiaomi.plugin.depurple.so
+vendor/lib64/com.xiaomi.plugin.hdr.so
+vendor/lib64/com.xiaomi.plugin.ldc.so
+vendor/lib64/com.xiaomi.plugin.memcpy.so
+vendor/lib64/com.xiaomi.plugin.miaideblur.so
+vendor/lib64/com.xiaomi.plugin.miaiie.so
+vendor/lib64/com.xiaomi.plugin.mibokeh.so
+vendor/lib64/com.xiaomi.plugin.miflaw.so
+vendor/lib64/com.xiaomi.plugin.mifragment.so
+vendor/lib64/com.xiaomi.plugin.misegment.so
+vendor/lib64/com.xiaomi.plugin.skinbeautifier.so
+vendor/lib64/com.xiaomi.plugin.sr.so
+vendor/lib64/com.xiaomi.plugin.supernight.so
+vendor/lib64/com.xiaomi.plugin.superportrait.so
+vendor/lib64/libcom.xiaomi.metadatautils.so
+vendor/lib64/libcom.xiaomi.pluginutils.so
+
+# Apollo Specific libal
+vendor/lib64/libalAILDC.so
+vendor/lib64/libalCFR.so
+vendor/lib64/libalLDC.so
+vendor/lib64/libalhLDC.so
+
+# Device Specific Camera Post Processing
+system/etc/permissions/vendor.xiaomi.hardware.campostproc-V1.0-java-permission.xml
+system/framework/vendor.xiaomi.hardware.campostproc-V1.0-java.jar
+system/lib/vendor.xiaomi.hardware.campostproc@1.0.so
+system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
+vendor/bin/hw/vendor.xiaomi.hardware.campostproc@1.0-service
+vendor/etc/init/vendor.xiaomi.hardware.campostproc@1.0-service.rc
+vendor/lib/hw/vendor.xiaomi.hardware.campostproc@1.0-impl.so
+vendor/lib/vendor.xiaomi.hardware.campostproc@1.0.so
+vendor/lib64/hw/vendor.xiaomi.hardware.campostproc@1.0-impl.so
+
+# Device Features
+product/etc/device_features/apollo.xml
